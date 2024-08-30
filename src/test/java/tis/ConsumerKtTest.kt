@@ -1,9 +1,9 @@
 package tis
 
 import org.junit.jupiter.api.Test
-import tis.rabbitmq.send
+import tis.rabbitmq.producerconsumer.send
 
-class SendKtTest {
+class ConsumerKtTest {
     @Test
     fun run100() {
         for (i in 0..20) {

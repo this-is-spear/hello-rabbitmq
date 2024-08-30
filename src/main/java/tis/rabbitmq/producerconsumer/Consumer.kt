@@ -1,4 +1,4 @@
-package tis.rabbitmq
+package tis.rabbitmq.producerconsumer
 
 import com.rabbitmq.client.ConnectionFactory
 import com.rabbitmq.client.MessageProperties
